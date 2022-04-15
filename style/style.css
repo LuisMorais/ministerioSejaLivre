@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
+
+
+
+#header{
+    background: url("/assets/img/star.jpg") fixed;
+    padding: 20px;
+}
+
+ul > li{
+    margin-left: 20px;
+}
+
+
+.bg-degrade{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(8,53,107,1) 2%); 
+}
+
+
+.about{
+    padding: 40px 0px;
+} 
+
+
+
+.img-dove img{
+    width: 300px;
+    animation: 2s ;
+}
+
+.announcement-text{
+    font-size: .9rem;
+}
+
+@keyframes doveAnim{
+    from{
+        opacity: 0;
+        translate: 
+    }to{
+        
+    }
+}
+
+@media(max-width: 400px){
+    .img-dove img{
+        width: 200px;
+    }
+}
